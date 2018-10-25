@@ -1,0 +1,16 @@
+Turn runkit on in php.ini:
+;;!!!!!!!
+extension=runkit.so
+runkit.internal_override = true
+;;!!!!!!!
+
+
+=================
+# pecl install runkit
+=================
+# pecl list
+Installed packages, channel pecl.php.net:
+=========================================
+Package Version State
+runkit  1.0.4   stable
+

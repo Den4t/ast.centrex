@@ -1,0 +1,51 @@
+<module>
+	<rawname>centrex</rawname>
+	<name>Centrex extension</name>
+	<publisher>Dennis Yurasov</publisher>
+	<repo>unsupported</repo>
+	<version>1.8.11</version>
+	<changelog>
+		*1.8.11* Fill idefault description in device from default user field
+		*1.8.10* Fix Follow me extension groups
+		*1.8.9* Disable intercom mode on device creation page
+		*1.8.8* Hide red alert div amour device and user mode
+		*1.8.7* Change CDR(cnum) in macro-usercallerid to be acceptable in UCP
+		*1.8.6* Fix in dialplan dor various CF feature codes
+		*1.8.5* Fix useroutcid in macro-outbound-callerid
+		*1.8.4* Fix ringgroups ltrim
+		*1.8.3* Strip extra spaces in show sip peers info
+		*1.8.2* Fixed queue strtoupper hook for static members
+		*1.8.1* Added description with full user name to sip.conf
+		*1.8.0* Fix for REFER when transfer call coming from trunk
+		*1.7.9* Fixes for custom devices
+		*1.7.8* Add automatic fill for callgroup,pickupgroup and accountcode
+		*1.7.7* Add check for centrex+ext not more 20 chars
+		*1.7.6* miscapps update
+		*1.7.4* Addes hook for miscapps
+		*1.7.3* Fixes in FC
+		*1.7.2* Just check
+		*1.7.1* Adopt "Custom extensions"
+		*1.7* Add conferences to centrex groups
+		*1.6* Add separate sibscribecontext for centrx group
+		*1.5* Add restriction: centrex device can't call directly device from other centrex.
+		*1.4* Hide sangoma info panel, fox for vm direct dial
+		*1.3* Added bootstrap hook no hide footer
+		*1.1* Fixed transfer operations
+		*1.0* New name
+		*0.1* Original Release
+		*0.2* defaultuser added
+		*0.3* description added
+	</changelog>
+	<description>
+		Provides a centrex extension in deviceuser mode.
+	</description>
+	<depends>
+		<module>core</module>
+		<version>13.0</version>
+	</depends>
+	<supported>
+		<version>13.0</version>
+	</supported>
+	<category>Settings</category>
+
+</module>
